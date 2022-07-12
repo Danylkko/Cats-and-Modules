@@ -17,7 +17,7 @@ default_platform(:ios)
 
 platform :ios do
   lane :build_and_export do
-    gym(workspace: "CatsAndModules_DanyloLitvinchuk.xcworkspace")
+    gym(scheme: "CatsAndModules_DanyloLitvinchuk")
     firebase_app_distribution(
       release_notes: "Apple_env_4",
       testers: "danylolitvinchuk@gmail.com, n.marhal@ukma.edu.ua"

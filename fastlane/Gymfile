@@ -6,9 +6,8 @@
 
 # Remove the # in front of the line to enable the option
 clean(true)
-
+workspace("CatsAndModules_DanyloLitvinchuk.xcworkspace")
 export_options("exportOptionsTemplate.plist")
-scheme("CatsAndModules_DanyloLitvinchuk")
 destination("generic/platform=iOS")
 export_method("development")
 output_name("CatsAndModules.ipa")
