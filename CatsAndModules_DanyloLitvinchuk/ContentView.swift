@@ -7,7 +7,6 @@
 
 import SwiftUI
 import Networking
-import SDWebImageSwiftUI
 import FirebasePerformance
 import FirebaseCrashlytics
 

@@ -15,6 +15,8 @@ def shared_pods
   pod 'FirebasePerformance'
 end
 
+  pod 'SDWebImageSwiftUI'
+
 target :CatsAndModules_DanyloLitvinchuk do
   xcodeproj 'CatsAndModules_DanyloLitvinchuk.xcodeproj'
   shared_pods
