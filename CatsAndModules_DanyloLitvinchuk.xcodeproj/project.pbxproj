@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CB0757F0C41FDE3DE0D291C /* Pods_CatsAndModules_DanyloLitvinchuk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BC2E3F22A5636295336D4B /* Pods_CatsAndModules_DanyloLitvinchuk.framework */; };
+		97485E7D285F500E00363AFE /* CatsAndModules_DanyloLitvinchukApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97485E7C285F500E00363AFE /* CatsAndModules_DanyloLitvinchukApp.swift */; };
+		97485E7F285F500E00363AFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97485E7E285F500E00363AFE /* ContentView.swift */; };
+		97485E81285F500F00363AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97485E80285F500F00363AFE /* Assets.xcassets */; };
+		97485E84285F500F00363AFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97485E83285F500F00363AFE /* Preview Assets.xcassets */; };
+		97485EA3285F545E00363AFE /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97485EA2285F545E00363AFE /* Networking.framework */; };
+		97485EA4285F545E00363AFE /* Networking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97485EA2285F545E00363AFE /* Networking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		975F5B7828647F9100D89F5E /* CatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975F5B7728647F9100D89F5E /* CatView.swift */; };
+		979433042868B43300346014 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 979433032868B43200346014 /* GoogleService-Info.plist */; };
+		97EFA9CA2877AC8400C90CA4 /* CatsAndModulesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFA9C92877AC8400C90CA4 /* CatsAndModulesUITests.swift */; };
+		97EFA9CC2877AC8400C90CA4 /* CatsAndModulesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFA9CB2877AC8400C90CA4 /* CatsAndModulesUITestsLaunchTests.swift */; };
+		97EFA9D32877B0B400C90CA4 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFA9D22877B0B300C90CA4 /* SnapshotHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97EFA9CD2877AC8400C90CA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97485E71285F500E00363AFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97485E78285F500E00363AFE;
+			remoteInfo = CatsAndModules_DanyloLitvinchuk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		97485EA5285F545E00363AFE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				97485EA4285F545E00363AFE /* Networking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5036C9FDEC8BD23E5DAF493B /* Pods-CatsAndModules_DanyloLitvinchuk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatsAndModules_DanyloLitvinchuk.debug.xcconfig"; path = "Target Support Files/Pods-CatsAndModules_DanyloLitvinchuk/Pods-CatsAndModules_DanyloLitvinchuk.debug.xcconfig"; sourceTree = "<group>"; };
+		68BC2E3F22A5636295336D4B /* Pods_CatsAndModules_DanyloLitvinchuk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatsAndModules_DanyloLitvinchuk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97485E79285F500E00363AFE /* CatsAndModules_DanyloLitvinchuk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatsAndModules_DanyloLitvinchuk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97485E7C285F500E00363AFE /* CatsAndModules_DanyloLitvinchukApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsAndModules_DanyloLitvinchukApp.swift; sourceTree = "<group>"; };
+		97485E7E285F500E00363AFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		97485E80285F500F00363AFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97485E83285F500F00363AFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97485EA2285F545E00363AFE /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		975F5B7728647F9100D89F5E /* CatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatView.swift; sourceTree = "<group>"; };
+		979433032868B43200346014 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		97E84ED1286CC74300E3BA09 /* CatsAndModules-DanyloLitvinchuk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "CatsAndModules-DanyloLitvinchuk-Info.plist"; sourceTree = SOURCE_ROOT; };
+		97EFA9C72877AC8400C90CA4 /* CatsAndModulesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatsAndModulesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97EFA9C92877AC8400C90CA4 /* CatsAndModulesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsAndModulesUITests.swift; sourceTree = "<group>"; };
+		97EFA9CB2877AC8400C90CA4 /* CatsAndModulesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsAndModulesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		97EFA9D22877B0B300C90CA4 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
+		BC7E6625BBB9F51DB9202B07 /* Pods-CatsAndModules_DanyloLitvinchuk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatsAndModules_DanyloLitvinchuk.release.xcconfig"; path = "Target Support Files/Pods-CatsAndModules_DanyloLitvinchuk/Pods-CatsAndModules_DanyloLitvinchuk.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97485E76285F500E00363AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97485EA3285F545E00363AFE /* Networking.framework in Frameworks */,
+				1CB0757F0C41FDE3DE0D291C /* Pods_CatsAndModules_DanyloLitvinchuk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EFA9C42877AC8400C90CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		398BF51B1392236AF223CF18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97485EA2285F545E00363AFE /* Networking.framework */,
+				68BC2E3F22A5636295336D4B /* Pods_CatsAndModules_DanyloLitvinchuk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6090DAEEFC86DC0B7C20849A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5036C9FDEC8BD23E5DAF493B /* Pods-CatsAndModules_DanyloLitvinchuk.debug.xcconfig */,
+				BC7E6625BBB9F51DB9202B07 /* Pods-CatsAndModules_DanyloLitvinchuk.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		97485E70285F500E00363AFE = {
+			isa = PBXGroup;
+			children = (
+				97485E7B285F500E00363AFE /* CatsAndModules_DanyloLitvinchuk */,
+				97EFA9C82877AC8400C90CA4 /* CatsAndModulesUITests */,
+				97485E7A285F500E00363AFE /* Products */,
+				6090DAEEFC86DC0B7C20849A /* Pods */,
+				398BF51B1392236AF223CF18 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		97485E7A285F500E00363AFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97485E79285F500E00363AFE /* CatsAndModules_DanyloLitvinchuk.app */,
+				97EFA9C72877AC8400C90CA4 /* CatsAndModulesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97485E7B285F500E00363AFE /* CatsAndModules_DanyloLitvinchuk */ = {
+			isa = PBXGroup;
+			children = (
+				97E84ED1286CC74300E3BA09 /* CatsAndModules-DanyloLitvinchuk-Info.plist */,
+				979433032868B43200346014 /* GoogleService-Info.plist */,
+				97485E7C285F500E00363AFE /* CatsAndModules_DanyloLitvinchukApp.swift */,
+				97485E7E285F500E00363AFE /* ContentView.swift */,
+				97485E80285F500F00363AFE /* Assets.xcassets */,
+				97485E82285F500F00363AFE /* Preview Content */,
+				975F5B7728647F9100D89F5E /* CatView.swift */,
+			);
+			path = CatsAndModules_DanyloLitvinchuk;
+			sourceTree = "<group>";
+		};
+		97485E82285F500F00363AFE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				97485E83285F500F00363AFE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		97EFA9C82877AC8400C90CA4 /* CatsAndModulesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97EFA9D22877B0B300C90CA4 /* SnapshotHelper.swift */,
+				97EFA9C92877AC8400C90CA4 /* CatsAndModulesUITests.swift */,
+				97EFA9CB2877AC8400C90CA4 /* CatsAndModulesUITestsLaunchTests.swift */,
+			);
+			path = CatsAndModulesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97485E78285F500E00363AFE /* CatsAndModules_DanyloLitvinchuk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97485E87285F500F00363AFE /* Build configuration list for PBXNativeTarget "CatsAndModules_DanyloLitvinchuk" */;
+			buildPhases = (
+				497D4A3260E0F83572500F9D /* [CP] Check Pods Manifest.lock */,
+				97485E75285F500E00363AFE /* Sources */,
+				97485E76285F500E00363AFE /* Frameworks */,
+				97485E77285F500E00363AFE /* Resources */,
+				B50717E9E35C32638591B065 /* [CP] Embed Pods Frameworks */,
+				97485EA5285F545E00363AFE /* Embed Frameworks */,
+				979433052868F06900346014 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatsAndModules_DanyloLitvinchuk;
+			packageProductDependencies = (
+			);
+			productName = CatsAndModules_DanyloLitvinchuk;
+			productReference = 97485E79285F500E00363AFE /* CatsAndModules_DanyloLitvinchuk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97EFA9C62877AC8400C90CA4 /* CatsAndModulesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97EFA9D12877AC8500C90CA4 /* Build configuration list for PBXNativeTarget "CatsAndModulesUITests" */;
+			buildPhases = (
+				97EFA9C32877AC8400C90CA4 /* Sources */,
+				97EFA9C42877AC8400C90CA4 /* Frameworks */,
+				97EFA9C52877AC8400C90CA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97EFA9CE2877AC8400C90CA4 /* PBXTargetDependency */,
+			);
+			name = CatsAndModulesUITests;
+			productName = CatsAndModulesUITests;
+			productReference = 97EFA9C72877AC8400C90CA4 /* CatsAndModulesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97485E71285F500E00363AFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					97485E78285F500E00363AFE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					97EFA9C62877AC8400C90CA4 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 97485E78285F500E00363AFE;
+					};
+				};
+			};
+			buildConfigurationList = 97485E74285F500E00363AFE /* Build configuration list for PBXProject "CatsAndModules_DanyloLitvinchuk" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97485E70285F500E00363AFE;
+			packageReferences = (
+			);
+			productRefGroup = 97485E7A285F500E00363AFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97485E78285F500E00363AFE /* CatsAndModules_DanyloLitvinchuk */,
+				97EFA9C62877AC8400C90CA4 /* CatsAndModulesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97485E77285F500E00363AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97485E84285F500F00363AFE /* Preview Assets.xcassets in Resources */,
+				97485E81285F500F00363AFE /* Assets.xcassets in Resources */,
+				979433042868B43300346014 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EFA9C52877AC8400C90CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		497D4A3260E0F83572500F9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatsAndModules_DanyloLitvinchuk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		979433052868F06900346014 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
+		};
+		B50717E9E35C32638591B065 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatsAndModules_DanyloLitvinchuk/Pods-CatsAndModules_DanyloLitvinchuk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatsAndModules_DanyloLitvinchuk/Pods-CatsAndModules_DanyloLitvinchuk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CatsAndModules_DanyloLitvinchuk/Pods-CatsAndModules_DanyloLitvinchuk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97485E75285F500E00363AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97485E7F285F500E00363AFE /* ContentView.swift in Sources */,
+				97485E7D285F500E00363AFE /* CatsAndModules_DanyloLitvinchukApp.swift in Sources */,
+				975F5B7828647F9100D89F5E /* CatView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EFA9C32877AC8400C90CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EFA9CA2877AC8400C90CA4 /* CatsAndModulesUITests.swift in Sources */,
+				97EFA9CC2877AC8400C90CA4 /* CatsAndModulesUITestsLaunchTests.swift in Sources */,
+				97EFA9D32877B0B400C90CA4 /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97EFA9CE2877AC8400C90CA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97485E78285F500E00363AFE /* CatsAndModules_DanyloLitvinchuk */;
+			targetProxy = 97EFA9CD2877AC8400C90CA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		97485E85285F500F00363AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97485E86285F500F00363AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97485E88285F500F00363AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5036C9FDEC8BD23E5DAF493B /* Pods-CatsAndModules_DanyloLitvinchuk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"CatsAndModules_DanyloLitvinchuk/Preview Content\"";
+				DEVELOPMENT_TEAM = VNU8KKW4GG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CatsAndModules-DanyloLitvinchuk-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.litvinchuk.CatsAndModules-DanyloLitvinchuk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "UKMA Edu Shared Profile";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97485E89285F500F00363AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC7E6625BBB9F51DB9202B07 /* Pods-CatsAndModules_DanyloLitvinchuk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CatsAndModules_DanyloLitvinchuk/Preview Content\"";
+				DEVELOPMENT_TEAM = VNU8KKW4GG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CatsAndModules-DanyloLitvinchuk-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.litvinchuk.CatsAndModules-DanyloLitvinchuk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "UKMA Edu Shared Profile";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		97EFA9CF2877AC8400C90CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VNU8KKW4GG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.edu.ukma.litvinchuk.CatsAndModulesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "UKMA Edu Shared Profile";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatsAndModules_DanyloLitvinchuk;
+			};
+			name = Debug;
+		};
+		97EFA9D02877AC8400C90CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VNU8KKW4GG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.edu.ukma.litvinchuk.CatsAndModulesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "UKMA Edu Shared Profile";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatsAndModules_DanyloLitvinchuk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97485E74285F500E00363AFE /* Build configuration list for PBXProject "CatsAndModules_DanyloLitvinchuk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97485E85285F500F00363AFE /* Debug */,
+				97485E86285F500F00363AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97485E87285F500F00363AFE /* Build configuration list for PBXNativeTarget "CatsAndModules_DanyloLitvinchuk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97485E88285F500F00363AFE /* Debug */,
+				97485E89285F500F00363AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97EFA9D12877AC8500C90CA4 /* Build configuration list for PBXNativeTarget "CatsAndModulesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97EFA9CF2877AC8400C90CA4 /* Debug */,
+				97EFA9D02877AC8400C90CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97485E71285F500E00363AFE /* Project object */;
+}
