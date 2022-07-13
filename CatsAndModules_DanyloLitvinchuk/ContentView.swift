@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  CatsAndModules_DanyloLitvinchuk
+//  CatsAndModules_DanyloLitvinchuk and Tim Cock
 //
 //  Created by Danylo Litvinchuk on 19.06.2022.
 //
